@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lan="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Pizza Order</title>
+    <meta name="description" content="Give your pizza order with easy">
+    <meta name="keywords" content="pizza, order, delivery, easy, online">
+  </head>
+  <body>
+    <header>
+      <h1>Login</h1>
+      <p>Please login give an order</p>
+    </header>
+    <main>
+      <form action="./index.html" method="POST">
+        <section>
+          <label for="username">Username</label>
+          <input id="username" type="text" placeholder="3 - 15 characters exc. @#$%"/> 
+        </section>
+        <br/>
+        <section>
+          <label for="password">Password</label>
+          <input id="password" type="password"/>
+        </section>
+        <section>
+          <!-- <input type="submit" value="Login"/> -->
+          <button type="submit">Login</button>
+        </section>
+      </form>
+    </main>
+    <hr/>
+    <footer>
+      &copy; 2020 PizzaOrder
+    </footer>    
+
+  </body>
+</html> 
